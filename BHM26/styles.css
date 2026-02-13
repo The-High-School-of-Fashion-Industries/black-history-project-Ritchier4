@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(230, 227, 218);
+    margin: 0%;
+}
+
+
+
+nav {
+    background-color: rgb(175, 0, 0);
+    height: 50px;
+
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navUl {
+    Display: flex;
+    justify-content: space-evenly;
+
+    padding: 0%;
+    width: 100%;
+    list-style-type: none;
+}
+.navLi {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 175, 175);
+}
+a:active {
+    color: rgb(216, 77, 77);
+}
+
+
+
+.mainDiv {
+    width: 100%;
+
+    Display: flex;
+    justify-content: center;
+}
+main{
+    Display: flex;
+    flex-direction: column;
+
+    background-color:rgb(252, 251, 249);
+    width: 90%;
+    
+    padding: 10px;
+}
+.h1Div {
+    margin-top: 40px;
+}
+h1 {
+    color: black;
+    Display: flex;
+    justify-content: center;
+}
+h2 {
+    color:rgb(199, 21, 56);
+}
+
+
+
+.formDiv {
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.homeForm {
+    Display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+#submitButton {
+    width: 200px;
+    Display: flex;
+    background-color: white;
+}
+
+
+
+.copyrightFooter {
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.copyright {
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+.MarieVanimg1 {
+    Display: flex;
+    Float: right;
+    margin: 10px;
+}
+
+
+
+.mirrorParagraph {
+    Display: flex;
+}
+.MarieImg2 {
+    Float: left;
+    margin: 10px;
+}
